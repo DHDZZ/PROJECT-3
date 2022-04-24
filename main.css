@@ -31,3 +31,22 @@ p {
     font-family: 'Bangers', cursive;
     font-family: 'Lobster', cursive;
 }
+
+.footer-content-center {
+    position: absolute;
+  float: center;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color: darkblue;
+  padding:4px;
+}
+
+* {
+  box-sizing: border-box;
