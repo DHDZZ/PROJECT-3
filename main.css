@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* 
+
+   Project 3-1
+   Author: Daniel Hernandez
+   Date: 04-23-2022
+   Filename: main.css
+*/
+
+html {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Lobster', cursive;
+}
