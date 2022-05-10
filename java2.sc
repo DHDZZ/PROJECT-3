@@ -17,3 +17,15 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+var count = 5;
+var redirect = "http://hdzz.me/PROJECT-3/index.html";
+function countDown() {
+if(count >= 0){
+document.getElementById("timer").innerHTML = count--;
+setTimeout("countDown()", 1000);
+}else{
+window.location.href = redirect;
+}
+}
+countDown();
