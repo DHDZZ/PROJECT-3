@@ -1,0 +1,191 @@
+h1  {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+   
+h2, h6 {
+    font-family: 'Roboto Mono', monospace;
+    color: #cd7f32;
+}    
+
+h5 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+h7 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.navbar-nav {
+    float:none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clockdate-wrapper {
+    background-color: ghostwhite;
+    padding: 14px;
+    max-width: 345px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+#clock{
+    background-color: ghostwhite;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #cd7f32;
+}
+#clock span {
+    color: #cd7f32;
+    font-size: 20px;
+    position: relative;
+}
+#date {
+    letter-spacing: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    color: #cd7f32;
+}
+
+.inner-footer {
+    margin: 1px;
+    padding: 1px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links ul {
+    display: flex;
+    width: 300px;
+    height: 10px;
+    margin: auto;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    padding: 5px 25px;
+    font-size: 25px;
+    color: #cd7f32;
+    transition: all .25s;
+}
+
+.social-items a:hover {
+    color: #54a39e;
+}
+
+outer-footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34568B;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: 'Roboto Mono', monospace;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;  
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #cd7f32;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #cd7f32;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #cd7f32;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #cd7f32;
+}
+
