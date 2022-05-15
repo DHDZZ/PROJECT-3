@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- 
+    <!--
         Author: Daniel Hernandez
         Date: 4-22-2022
         file name: index.html
@@ -13,74 +13,113 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <link href="main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Social Media Icons -->
     <script src="https://kit.fontawesome.com/4cef707f68.js" crossorigin="anonymous"></script>
-  
+ 
 </head>
-<body>  
-<div class="container mt-3">
-  <div class="mt-4 p-5 bg-primary text-white rounded">
-    <h1>Jumbotron Example</h1> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+<body onload="startTime()">    
+    <div class="container-fluid">
+    <div class="mt-2 p-4 bg-dark text-white rounded">
+    <h1>Daniel Hernandez</h1>
+      <br>
+      <h4>Hello and Welcome to my Website.</h4>
   </div>
-
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
+   
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary justify-content-center">
+        <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link text-warning" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+         <a class="nav-link text-warning" href="about.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="resume.html">Resume</a>
+        <a class="nav-link text-warning" href="resume.html">Resume</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link text-warning" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
-</nav>    
+    </nav>    
 
-        <div class="container-fluid mt-3">
+    <div class="container-fluid">
+    <div class="container-fluid mt-3">
   <div class="row">
-    <div class="col-sm-5 text-black p-3">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <div class="col-sm-4 text-black p-2">
+      <h2>Photo of me:</h2>
+        <img src="Grad.JPG" alt="graduation" width="550" height="550">
+      <p>High School Graduation June 7th 2018 at Cerritos College Stadium. Graduating from Bell High School</p>
     </div>
-    <div class="col-sm-6  text-black p-3">
-       <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
+    <div class="col-sm-6  text-black p-2">
+       <h2>About Me:</h2>
+        <div id="clockdate">
+        <div class="clockdate-wrapper">
+        <div id="clock"></div>
+        <div id="date"></div>
+        </div>
+        </div>
+        <br>
+        <br>
+      <p>Hello my name is Daniel Hernandez I am 21 years old and currently attend Cerritos College.  I am the youngest child out of two older brothers. Both my parents were born in Mexico and have come to the United States at a young age giving me and my siblings a better opportunity and future. I have been a full time student at Cerritos College for the past 3 years. This is currently my last semester here, in hopes to obtain my AA in Comp Sci. I plan to transfer to a CSU this upcoming fall semester and obtain my Bachelors in Computer Science. </p>
     </div>
-          <div class="col-sm-6  text-black p-3">
-          <h2>Column</h2>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <div class="col-sm-4  text-black p-3">
+          <h2>When I have free time:</h2>
+          <ol>
+            <li>I enjoy watching movies and series from Netflix or any other streaming service.</li>    
+            <li>Playing video games.</li>
+            <li>Play sports like basketball and soccer.</li>  
+          </ol>
           </div>
-      
+     
       <div class="col-sm-6  text-black p-3">
-          <h2>Column</h2>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h2>My favortie websites:</h2>
+          <p>My favorite websites include <a href="https://www.reddit.com/">Reddit</a>, <a href="https://stackoverflow.com/">Stack Overflow</a>, and lastly of course <a href="https://www.google.com/">Google.</a></p>
+          <br>
       </div>
 
       <div class="col-sm-12  text-black p-3">
-          <h2>Column</h2>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..Some text about me in culpa qui officia deserunt mollit anim..Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h2>Websites:</h2>
+          <p>Each website has its unique features and experiences. Google provides so many products that I find very useful such as gmail and google search. Reddit on the other hand is a network of many communities where people can dive into their interests, hobbies, and passions. Lastly Stack Overflow is very useful since many developers from around the world can help you with any problems or needs you may have with your code. They provide you with useful hints and solutions.</p>
       </div>
-      
-      <div class="container mt-3">
-      <a href="about.html" class="btn btn-dark">Next Page</a>
-      </div>  
+        
+        <div class="w3-container">
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Sign Up</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+      <div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+        <img src="img.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form class="w3-container" action="thankyou.html">
+        <div class="w3-section">
+          <label><b>Name</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Full Name" name="usrname" required>
+          <label><b>Email</b></label>
+          <input class="w3-input w3-border" type="password" placeholder="Enter Email" name="psw" required>
+          <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Submit</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+        </div>
+      </form>
+
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+      </div>
+
+    </div>
   </div>
 </div>
-        
-      <!-- Footer -->
+        <!-- Footer -->
       <div class="mt-5 p-2 bg-dark text-white text-center">
           <footer class="footer">
             <div class="inner-footer">
@@ -91,7 +130,7 @@
                 <li class="social-items"><a href="mailto:daniel.hdzz2000@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
                 <li class="social-items"><a href="https://www.linkedin.com/in/daniel-hernandez-4ba43b216/"><i class="fa-brands fa-linkedin"></i></a></li>        
                     </ul>
-                    
+                   
                 </div>
                 <div class="outer-footer">
                     <br>
@@ -100,8 +139,11 @@
                 </div>
           </footer>
     </div>
-        
+    </div>
+        </div>    
     <!-- Div -->
     </div>
+    </div>
+    <script src="java.sc"></script>
 </body>
 </html>
